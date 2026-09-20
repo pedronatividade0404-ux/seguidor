@@ -1,0 +1,20 @@
+quero um site que de entrega de seguidores automaticas:
+
+na tela inicial tera um textbox para preencher com o link do perfil do tiktok do usuario e uma opção de escolher quantos seguidores deseja(20, 50, 100 ou 500) e um botão de prosseguir
+
+na proxima tela tera instrussões de oq fazer para recerber os seguidores:
+
+1 - CRIE UMA CONTA NO TIKTOK LITE (DEVE SER CONTA NOVA EM UM DISPOSITIVO QUE AINDA NÃO INSTALOU TIKTOK LITE OU INSTALOU A MAIS DE 30 DIAS)
+
+2 - FAÇA LOGIN NA CONTA
+
+3 - ENTRE NO LINK 
+
+4 - GIRE A ROLETA
+
+e embaixo tera um botão escrito "Acessar Link", onde o usuario sera redirecionado para o link que eu definir no arquivo .env
+
+apos 3 minutos desde quando apertou no botão "Acessar Link" sera direcionado para uma nova parte, onde tera um campo para enviar uma imagem e um botão de enviar, ao clicar em enviar, a imagem + o link de perfil do tiktok do usuario serão enviados em forma de embed para o webhook do canal do discord
+no webhook tera 2 botão, um para apagar a embed e outro para aprovar, quando clicar em aprovar, a api vinculada a apismm sera acionada e a quantidade de seguidores do tiktok serão enviados
+
+quero um site nas cores preto e branco, futurista e minimalista, e quero hospedar no vercel
